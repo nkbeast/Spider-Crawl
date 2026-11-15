@@ -1,0 +1,24 @@
+# ── Spider Crawl ─────────────────────────────────────────────
+# crawl output
+results/
+*.txt
+!requirements.txt
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
